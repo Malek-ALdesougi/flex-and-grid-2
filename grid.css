@@ -1,0 +1,77 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+nav{
+    text-align: center;
+    color:white;
+    background-color: rgb(0, 234, 255);
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1{
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-template-rows: repeat(12, auto);
+    row-gap:5px;
+    column-gap: 5px;
+}
+
+.header{
+    color: white;
+    background-color: rgb(0, 234, 255);
+    grid-area: 1/1/2/13;
+    text-align: center;
+}
+
+.hero{
+    color: white;
+    text-align: center;
+    background-color: pink;
+    grid-area:2/1/5/7;
+}
+
+
+.slide-bar{
+    color: white;
+    text-align: center;
+    background-color: rgb(19, 170, 19);
+    grid-area:5/1/9/7;
+}
+.main-content{
+    color: white;
+    text-align: center;
+    background-color: rgb(255, 226, 5); 
+    grid-area:2/7/7/13;
+}
+.extra-content{
+    color: white;
+    text-align: center;
+    background-color: rgb(100, 100, 99);
+    grid-area:7/7/9/13;
+}
+.related-image{
+
+    color: white;
+    text-align: center;
+    background-color: rgb(159, 22, 45); 
+    grid-area:9/1/12/10;
+}
+.related-posts{
+    color: white;
+    text-align: center;
+    background-color: rgb(239, 174, 237);
+    grid-area:9/10/12/13;
+}
+.footer{
+    text-align: center;
+    background-color: orange;
+    grid-area:12/1/13/13;
+    color:white;
+}
